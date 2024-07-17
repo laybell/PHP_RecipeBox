@@ -1,0 +1,22 @@
+// This is the JVS code
+// TODO check where the bug on line 200 is coming from .. (conventional way to note)
+
+// const body = document.body;
+
+//create element is a method, applied to the object document
+
+// //this creates a paragraph tag
+const node = document.createElement("p");
+console.log(node);
+
+// //creates the text block/node in that p element
+const textnode = document.createTextNode("woah some text");
+console.log(textnode);
+
+// //Append the text block/node to the p node
+node.appendChild(textnode);
+console.log(node);
+
+// //Add the p node to the paragraph
+document.getElementById("one").appendChild(node);
+

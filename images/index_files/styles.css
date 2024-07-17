@@ -1,0 +1,68 @@
+/* Default CSS 
+
+font-family: 'Permanent Marker', cursive;
+*/
+
+body{
+    margin:1rem;
+    /* background-image: url("images/background_index.jpg"); */
+    background-color: beige;
+}
+
+h1{
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+.nav-bar {
+    padding: 2rem;
+    display:flex;
+    justify-content: space-between;
+    gap:10px;
+    flex-grow:3;
+    border:  solid black;
+    padding-top:2px;
+    padding-bottom:2px;
+    padding-left: 40px;
+    padding-right:40px;
+    border-spacing: 1rem;
+    border-radius: 15px;
+
+}
+
+.logo {
+    /* padding-right: 17%; */
+    height:50px;
+    width:50px ;
+    outline: 15px rgb(216, 174, 35) solid;
+    border-radius: 3rem;
+    border-spacing: 80px;
+    border-style: ridge;
+}
+
+.nav-lines{
+    transform: rotate(90deg);
+    padding-left: 10px;
+}
+
+.nav-text {
+    padding-top:1rem;
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+.p-intro{
+    max-width: 20%;
+    border:2px solid black;
+}
+.central-area{
+    display: flex;
+    flex-wrap: wrap;
+    align-content:right;
+    border: 2px solid black;
+    height: 50px;
+}
+button{
+    background-color: red;
+    border-radius: 1rem;
+}

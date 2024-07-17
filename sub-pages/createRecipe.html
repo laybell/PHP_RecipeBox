@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<header></header>
+<body>
+    <nav class= "nav-bar"> 
+        <a href="../index.php" alt=Home target = "" class="nav-text">Home </a>
+        <a href="seasonal.html" alt=Seasonal target = "" class="nav-text">Seasonal </a>
+        <a href="savoury.html" alt=Savoury target = "" class="nav-text">Savoury </a>
+        <a href="sweet.html" alt=Sweet target = "" class="nav-text">Sweet </a>
+    
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn"></button>
+            <div id="myDropdown" class="dropdown-content">
+               
+                <a href="createRecipe.html">Create a Recipe</a>
+                
+            </div>
+    </div>  
+
+    </nav>
+<head>
+    <script src="../js/example.js" > console.log("hello")
+    </script>
+
+<link rel="stylesheet" href="../ss/styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+</head>
+<h1>Add a new Recipe </h1>
+
+<div class="central-area">
+  <div class="Middle">
+
+
+<div  class="search-box"> 
+    <form method="post" action="../php/createrecipe.php"  >
+    
+    Recipe Name:</br><input type="text" spellcheck=true placeholder = "Type recipe name here" name="recipename"> </br></br>
+    Ingredients:</br><textarea type="text" rows="20" cols="20" placeholder = "-Make list here" name="ingredients"></textarea> </br>
+
+  </br>
+    Prep Time:</br><input type="text" placeholder = "eg: 10 mins" name="preptime"> </br></br>
+    Cooking Time:</br><input type="text" placeholder = "eg: 20 mins" name="cooktime"> </br></br>
+    Method:</br><textarea type="text" rows="20" cols="50" placeholder = "Type steps here" name="method"> </textarea></br>
+</br>
+    <label for="Difficulty">Difficulty Level:</label>
+    <select id="Difficulty" name ="difficulty">
+      <option value="Easy">Easy</option>
+      <option value="Medium">Medium</option>
+      <option value="Hard">Hard</option>
+    </select>
+    </br> </br>
+    <label for="season" >Season:</label>
+    <select id="season" name ="season">
+      <option value="Spring">Spring</option>
+      <option value="Summer">Summer</option>
+      <option value="Autumn">Autumn</option>
+      <option value="Winter">Winter</option>
+    </select> </br></br>
+
+    <label for="dishtype">Savoury or Sweet?</label>
+    <select id="dishtype" name ="dishtype">
+      <option value="Savoury">Savoury</option>
+      <option value="Sweet">Sweet</option>
+    </select>
+
+    </br> </br>
+    <label for="serving" >Serving Size:</label>
+    <input type="text" placeholder = "How many servings?" name="serving"></br></br>
+
+
+    <label for="costpp" >Cost per Person:</label>
+    <input type="text" size=5 placeholder = "eg: 1.00" name="costpp"></br></br>
+
+    <label for="cuisine">Cuisine:</label>
+    <select id="cuisine" name ="cuisine">
+      <option value="British">British</option>
+      <option value="Spanish">Spanish</option>
+      <option value="French">French</option>
+      <option value="Middle_Eastern">Middle Eastern</option>
+      <option value="East_Asian">East Asian</option>
+      <option value="American">American</option>
+      <option value="Mexican">Mexican</option>
+      <option value="Indian">Indian</option>
+    </select>
+
+</br> </br>
+    <label for="source" >Source:</label>
+    <input type="text" placeholder = "" name="source">
+</br></br>
+    <button type="submit"><i class="recipe-search"></i>&nbsp &nbsp Add to Collection &nbsp &nbsp</button>
+</form>
+
+  </div>
+
+
+
+</div>
+<img class= "bowl" src="../images/background_index.jpg" >
+
+
+</div>
+
+
+
+
+</body>
+
+
+
+</html>

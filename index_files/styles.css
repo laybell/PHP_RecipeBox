@@ -1,0 +1,183 @@
+/* Default CSS 
+
+font-family: 'Permanent Marker', cursive;
+*/
+
+/* QUESTIONS:
+how to make size of font adjust to window size (solved vw
+how to have logo over border?
+)*/
+
+body{
+    margin:1rem;
+    /* background-image: url("images/background_index.jpg"); */
+    background-color: rgba(219,220,215,255);
+}
+
+h1{
+    font-family: 'Dosis', sans-serif, cursive; 
+    /* text-shadow: 1px 2px rgb(144, 161, 139); */
+    font-size: 4vw;
+
+}
+.title-end{
+    color: rgb(2, 83, 2);
+    font-family: 'Dosis', sans-serif, cursive;
+    text-shadow: 1px 1px rgb(144, 161, 139); 
+    font-size: larger;
+    
+}
+
+
+.nav-bar {
+    /* padding: 2rem; */
+    display:flex;
+    justify-content: space-between;
+    font-family: 'Dosis', sans-serif, cursive;
+    gap:10px;
+    border:  solid black;
+    padding: top 10% bottom 10%;
+    padding-left: 40px;
+    padding-right:40px;
+    border-spacing: 1rem;
+    border-radius: 15px;
+    font-size: 2vw;
+    text-align: center;
+    padding: auto;
+
+
+}
+
+.logo {
+    /* padding-right: 17%; */
+    height:50px;
+    width:50px ;
+    /* outline: 15px green solid ;
+    /* border-radius: 3rem;
+    border-spacing: 80px;
+    border-style: ridge; */ 
+    border-image-outset:100px;
+}
+
+.nav-lines{
+    transform: rotate(90deg);
+    padding-left: 10px;
+}
+
+.nav-text {
+    padding-top:1rem;
+    font-family: 'Dosis', sans-serif,bold, cursive; 
+    color: green ;
+    text-decoration: solid ;
+
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: green;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    height:50px;
+    width:50px ;
+    outline: 15px green solid ;
+    border-radius: 3rem;
+    border-spacing: 80px;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: rgb(20, 168, 20);
+;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+
+
+
+  }
+
+
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position:absolute;
+    background-color: #f1f1f1;
+    padding-right: 10px;
+    /* max-width: 100px; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10;
+    height: 200px;
+    width: auto;
+    white-space: nowrap;
+    /* left: 50px; */
+    right: 0;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;
+    right: 0;
+}
+
+.p-intro{
+    max-width: 40%;
+    border:2px solid black;
+}
+.central-area{
+    display: flex;
+    justify-content:space-between;
+
+    /* flex-grow: 2; */
+    /* border: 2px solid black; */
+
+}
+.bowl{
+    display:flex;
+    width: 40%;
+    height:30%;
+}
+.LHS{
+    padding-top: 2%;
+}
+
+.search-box{
+    height: 40px;
+    width:70%;
+
+
+}
+button{
+    background-color: green;
+    border-radius: 1rem;
+    color:white;
+    width: auto;
+    height: 50px;
+
+
+}
+
+footer{
+    text-align: center;
+    font-family: 'Dosis', sans-serif,bold, cursive; 
+}
+h4{
+    font-family: 'Dosis', sans-serif, cursive;
+    text-shadow: 1px 2px rgb(144, 161, 139);
+    font-size: 4vw;
+    color:blue
+  }
